@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #28223F;
+}
+
+section{
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.personal{
+    /* background-color: #231E39; */
+    background-color: white;
+}
+
+.personal img{
+    width: 12rem;
+}
+
+.skills{
+    background-color: white;
+}
+
+li{
+    /* remove starting dots from li tags */
+    list-style: none; 
+}
