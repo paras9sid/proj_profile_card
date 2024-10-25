@@ -21,12 +21,27 @@ section{
 }
 
 .personal{
-    /* background-color: #231E39; */
-    background-color: white;
+    /* background-color: white; -> for temp purpose white color used*/ 
+    background-color: #231E39;
+    color:#b3b8cd;
+}
+
+.personal .pro{
+    background-color: #febb08;
+    color:#231e39;
+    border: 1px solid #febb08;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    padding: 0.1rem 0.7rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
 }
 
 .personal img{
     width: 12rem;
+    display: block;
+    margin: auto;
 }
 
 .skills{
