@@ -71,9 +71,32 @@ section{
     margin-top: 2.5rem;
 }
 
-.personal .name{
-    /* font-size: 5rem; */
+.personal .buttons{
     text-align: center;
+    margin: 1rem;
+}
+
+.personal button{
+    border: 1px solid #03bfcb;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.personal button:hover{
+    cursor: pointer;
+}
+
+.personal button.primary{
+    background-color: #03bfcb;
+    color:#231e39;
+    margin-right: .5rem;
+}
+
+.personal button.secondary{
+    background-color: transparent;
+    color: #02899c;
+    margin-left: .5rem;
 }
 
 .skills{
