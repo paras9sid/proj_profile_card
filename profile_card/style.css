@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -10,6 +12,8 @@ html{
 
 body{
     background-color: #28223F;
+    color: #b3bbcd;
+    font-family: "Poppins", sans-serif;
 }
 
 section{
@@ -23,7 +27,8 @@ section{
 .personal{
     /* background-color: white; -> for temp purpose white color used*/ 
     background-color: #231E39;
-    color:#b3b8cd;
+    /* color:#b3b8cd; */
+    padding: 2.5rem 0 1.5rem 0;
 }
 
 .personal .pro{
@@ -40,8 +45,35 @@ section{
 
 .personal img{
     width: 12rem;
+    height: 12rem;
+    border: 0.2rem solid #03bfcb;
+    border-radius: 50%;
     display: block;
     margin: auto;
+}
+
+.personal .name{
+    /* font-size: 5rem; */
+    text-align: center;
+}
+
+.personal .country{
+    /* font-size: 5rem; */
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0.2rem;
+}
+
+.personal .stack{
+    /* font-size: 5rem; */
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+}
+
+.personal .name{
+    /* font-size: 5rem; */
+    text-align: center;
 }
 
 .skills{
