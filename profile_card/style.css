@@ -1,5 +1,7 @@
+/* google font import  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* root */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -21,6 +23,8 @@ a{
     text-decoration: none;
 }
 
+/* perosnal div section started */
+
 section{
     width: 32rem;
     position: absolute;
@@ -40,7 +44,7 @@ section{
 .personal .pro{
     background-color: #febb08;
     color:#231e39;
-    border: 1px solid #febb08;
+    /* border: 1px solid #febb08; */
     border-radius: 0.2rem;
     font-size: 1.4rem;
     padding: 0.1rem 0.7rem;
@@ -61,6 +65,7 @@ section{
 .personal .name{
     /* font-size: 5rem; */
     text-align: center;
+    margin-top: 1.3rem;
 }
 
 .personal .country{
@@ -137,6 +142,7 @@ section{
     color: #EE2625;
 }
 
+/* skill div section start */
 
 .skills{
     /* background-color: white; */
